@@ -71,3 +71,12 @@ git remote -v
 git init
 git status
 git add .
+git status
+git commit -m "created teams and games tables for worldcup database"
+git push origin master
+git push origin main
+chmod +x insert_data.sh, queries.sh
+chmod+x insert_data.sh
+chmod +x insert_data.sh
+chmod +x queries.sh
+git add .
