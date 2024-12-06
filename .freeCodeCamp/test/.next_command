@@ -176,3 +176,8 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ./insert_data.sh
 ./queries.sh
 git add .
+git status
+git commit -m "adding backup pg_dump worldcup.sql for the database"
+git push origin main
+./queries.sh
+./queries.sh
