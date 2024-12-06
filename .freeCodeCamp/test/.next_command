@@ -181,3 +181,4 @@ git commit -m "adding backup pg_dump worldcup.sql for the database"
 git push origin main
 ./queries.sh
 ./queries.sh
+git add .
