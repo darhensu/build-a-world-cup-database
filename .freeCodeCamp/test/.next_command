@@ -170,3 +170,9 @@ git push origin main
 ./queries.sh
 ./queries.sh
 git add .
+git commit -m "completed teh queries.sh"
+git push origin main
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+./insert_data.sh
+./queries.sh
+git add .
