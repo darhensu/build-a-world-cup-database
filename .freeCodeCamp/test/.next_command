@@ -165,3 +165,8 @@ chmod +x queries.sh
 ./insert_data.sh
 ./insert_data.sh
 git add .
+git commit -m "completed insert_data.sh"
+git push origin main
+./queries.sh
+./queries.sh
+git add .
